@@ -1,6 +1,8 @@
 # Automating_email_sending
 This script is created in python programming language using Google SMTP service to automate sending emails. 
 
+# The repository contains a file with test cases and a checklist to test the functionality of the program.
+
 # How it works?
 In the program code you need to add information from your SMTP. Create in a text document the content of the email, pdf file to be sent (in my case it's a resume)
 
