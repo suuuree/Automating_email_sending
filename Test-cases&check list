@@ -1,0 +1,45 @@
+# TC-001 Check if the email was sent with the correct data
+Steps to reproduce:
+1. Run the program.
+2. Make sure that the correct data for connecting to the SMTP server are set.
+3. Make sure that the correct paths to the resume and the text file of the email content are specified.
+4. Make sure that the correct list of companies to send is specified.
+5. Run the program and watch the emails being sent.
+6. Check that all emails have been sent successfully.
+  Expected result: The program sends emails with correct data to all companies in the list.
+
+# TC-002 Checking error handling in the absence of a resume
+Steps to reproduce:
+1. Run the program.
+2. Ensure that the path to the resume is not specified in the program or is specified incorrectly.
+3. Run the program and watch the emails being sent.
+4. Check that the program displays a message about the absence of resume.
+  Expected result: The program detects the absence of a resume and displays a corresponding message.
+
+# TC-003 Testing error handling for incorrect data for connecting to an SMTP server
+Steps to reproduce:
+1. Run the program.
+2. Enter incorrect data to connect to the SMTP server.
+3. Run the program and watch the emails being sent.
+4. Check that the program displays a message about the failed connection to the SMTP server.
+  Expected result: The program detects incorrect data for connecting to the SMTP server and displays a message.
+
+# TC-004 Check if an email with empty content is sent
+Steps to reproduce:
+1. Launch the program.
+2. Specify an empty email content.
+3. Run the program and watch the emails being sent.
+4. Make sure that the program sends an email with an empty content.
+  Expected result: The program allows you to send an email with an empty body without displaying an error message.
+
+# CHECK LIST
+1. Verify that the program correctly reads a resume from a PDF file.
+2. Verify that the program correctly reads the contents of an e-mail body text file.
+3. Verify that the tool creates and formats an email with the correct headers and content.
+4. Verify that the tool attaches the resume to the email.
+5. Verify that the tool connects to the SMTP server and authenticates successfully.
+6. Verify that the program sends an email to each company in the list.
+7. Verify that the program handles errors correctly if the summary or content of the email is missing.
+8. Make sure that the program correctly handles errors when connecting to the SMTP server.
+9. Make sure that the program correctly handles errors with incorrect file paths.
+10. Make sure that the program displays messages about successful delivery of messages correctly.
