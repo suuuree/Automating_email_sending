@@ -10,7 +10,7 @@ smtp_port = 587
 smtp_username = 'your_smtp_username'
 smtp_password = 'your_smtp_password'
 
-#What parameters it accepts?
+# What parameters it accepts?
 1. PDF file
 2. txt file (e-mail content)
 3. A list of email addresses, handy for writing to multiple companies.
